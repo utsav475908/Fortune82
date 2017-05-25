@@ -1,0 +1,10 @@
+framework module Rock {
+  umbrella header "Rock.h"
+
+  export *
+  module * { export * }
+}
+
+module Rock.Swift {
+    header "Rock-Swift.h"
+}

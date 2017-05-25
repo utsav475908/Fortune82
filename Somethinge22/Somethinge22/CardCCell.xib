@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11762" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="fcE-Du-UhI" customClass="CardCCell" customModule="MMCardView_Example" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="301" height="396"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="301" height="396"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="infoDark" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nwb-SU-YQN">
+                        <rect key="frame" x="259" y="358" width="22" height="22"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="22" id="HqM-Dg-guw"/>
+                            <constraint firstAttribute="height" constant="22" id="QKD-J7-f1j"/>
+                        </constraints>
+                        <connections>
+                            <action selector="clickAction" destination="fcE-Du-UhI" eventType="touchUpInside" id="5kk-GU-c0C"/>
+                        </connections>
+                    </button>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Click Info Button" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IyU-pU-3Ew">
+                        <rect key="frame" x="8" y="8" width="285" height="56"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="56" id="zec-zb-BHS"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="HelveticaNeue-MediumItalic" family="Helvetica Neue" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+            </view>
+            <color key="backgroundColor" red="0.96078431369999995" green="0.76862745099999996" blue="0.30196078430000001" alpha="1" colorSpace="calibratedRGB"/>
+            <constraints>
+                <constraint firstItem="IyU-pU-3Ew" firstAttribute="leading" secondItem="fcE-Du-UhI" secondAttribute="leading" constant="8" id="7BI-6B-wmm"/>
+                <constraint firstAttribute="trailing" secondItem="nwb-SU-YQN" secondAttribute="trailing" constant="20" id="RdK-0s-of5"/>
+                <constraint firstItem="IyU-pU-3Ew" firstAttribute="top" secondItem="fcE-Du-UhI" secondAttribute="top" constant="8" id="URq-Tb-dMZ"/>
+                <constraint firstAttribute="trailing" secondItem="IyU-pU-3Ew" secondAttribute="trailing" constant="8" id="Y2B-fq-LkG"/>
+                <constraint firstAttribute="bottom" secondItem="nwb-SU-YQN" secondAttribute="bottom" constant="16" id="fTU-Sf-H6X"/>
+            </constraints>
+            <size key="customSize" width="301" height="396"/>
+            <connections>
+                <outlet property="btnClick" destination="nwb-SU-YQN" id="Abl-ef-eI3"/>
+            </connections>
+            <point key="canvasLocation" x="269" y="-132"/>
+        </collectionViewCell>
+    </objects>
+</document>

@@ -1,0 +1,10 @@
+framework module Wait {
+  umbrella header "Wait.h"
+
+  export *
+  module * { export * }
+}
+
+module Wait.Swift {
+    header "Wait-Swift.h"
+}

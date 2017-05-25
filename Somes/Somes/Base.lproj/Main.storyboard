@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="fOe-7M-fBJ">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Item-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Somes" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" minimumZoomScale="0.5" maximumZoomScale="6" translatesAutoresizingMaskIntoConstraints="NO" id="uT0-WK-v6W">
+                                <rect key="frame" x="16" y="165" width="343" height="570"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="KjV-a6-Iwf">
+                                        <subviews>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="KKg-ka-HFh" customClass="someView" customModule="Somes" customModuleProvider="target">
+                                                <rect key="frame" x="0.0" y="0.0" width="343" height="570"/>
+                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                            </view>
+                                        </subviews>
+                                        <color key="backgroundColor" red="0.47450980390000003" green="0.41460284019999999" blue="0.3235196192" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <constraints>
+                                            <constraint firstItem="KKg-ka-HFh" firstAttribute="leading" secondItem="KjV-a6-Iwf" secondAttribute="leading" id="GAA-nH-29l"/>
+                                            <constraint firstAttribute="trailing" secondItem="KKg-ka-HFh" secondAttribute="trailing" constant="-343" id="Hom-8I-TVt"/>
+                                            <constraint firstAttribute="height" id="MWb-9K-ycg"/>
+                                            <constraint firstAttribute="bottom" secondItem="KKg-ka-HFh" secondAttribute="bottom" constant="-570" id="ccF-r2-QXz"/>
+                                            <constraint firstAttribute="width" id="ngA-jU-yd5"/>
+                                            <constraint firstItem="KKg-ka-HFh" firstAttribute="top" secondItem="KjV-a6-Iwf" secondAttribute="top" id="spU-bW-dmd"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="KjV-a6-Iwf" firstAttribute="leading" secondItem="uT0-WK-v6W" secondAttribute="leading" id="CUO-F5-Gya"/>
+                                    <constraint firstItem="KjV-a6-Iwf" firstAttribute="top" secondItem="uT0-WK-v6W" secondAttribute="top" id="TZB-Yx-GUJ"/>
+                                    <constraint firstAttribute="bottom" secondItem="KjV-a6-Iwf" secondAttribute="bottom" constant="570" id="jz8-Kx-bQP"/>
+                                    <constraint firstAttribute="trailing" secondItem="KjV-a6-Iwf" secondAttribute="trailing" constant="343" id="l5e-Fc-iyP"/>
+                                </constraints>
+                            </scrollView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.1594438977" green="0.47450980390000003" blue="0.14290024430000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="uT0-WK-v6W" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="BOc-cK-Wj3"/>
+                            <constraint firstItem="uT0-WK-v6W" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="145" id="QH5-V9-aJn"/>
+                            <constraint firstAttribute="bottomMargin" secondItem="uT0-WK-v6W" secondAttribute="bottom" constant="-68" id="fjd-Uh-6Zc"/>
+                            <constraint firstItem="uT0-WK-v6W" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="oOb-AV-bqp"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Item" id="DtQ-zs-mqW"/>
+                    <connections>
+                        <outlet property="some" destination="3SY-c0-nhC" id="ptL-oC-PwX"/>
+                        <outlet property="someView" destination="KKg-ka-HFh" id="HZs-gR-RhB"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                <customObject id="3SY-c0-nhC" customClass="StyleKitName"/>
+            </objects>
+            <point key="canvasLocation" x="1079.2" y="122.78860569715144"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="TBW-on-Tdm">
+            <objects>
+                <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="fOe-7M-fBJ" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" id="VmZ-yJ-rzj">
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="viewControllers" id="e3M-fY-aaI"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="bi3-rU-2DO" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="140" y="122.78860569715144"/>
+        </scene>
+    </scenes>
+</document>

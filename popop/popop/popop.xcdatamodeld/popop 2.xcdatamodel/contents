@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="11759" systemVersion="16E195" minimumToolsVersion="Automatic" sourceLanguage="Objective-C" userDefinedModelVersionIdentifier="">
+    <entity name="Entity" representedClassName="Entity" syncable="YES" codeGenerationType="class">
+        <relationship name="newRelationship" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Event" inverseName="newRelationship" inverseEntity="Event" syncable="YES"/>
+    </entity>
+    <entity name="Event" representedClassName="Event" codeGenerationType="class">
+        <attribute name="timestamp" optional="YES" attributeType="Date">
+            <userInfo/>
+        </attribute>
+        <relationship name="newRelationship" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Entity" inverseName="newRelationship" inverseEntity="Entity" syncable="YES"/>
+        <userInfo/>
+    </entity>
+    <elements>
+        <element name="Event" positionX="261" positionY="189" width="128" height="73"/>
+        <element name="Entity" positionX="-36" positionY="252" width="128" height="58"/>
+    </elements>
+</model>
