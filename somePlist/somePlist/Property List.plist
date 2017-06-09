@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<!--
+   Property List.plist
+   somePlist
+
+   Created by kuutsav on 6/7/17.
+   Copyright (c) 2017 kuutsav. All rights reserved.
+-->
+<plist version="1.0">
+   
+            <dict>
+                <key>Thumbnail</key>
+                <array>
+                    <string>imageicon0@2x.jpg</string>
+                    <string>imageicon1@2x.jpg</string>
+                    <string>imageicon2@2x.jpg</string>
+                    <string>imageicon3@2x.jpg</string>
+                    <string>imageicon3@2x.jpg</string>
+                    <string>imageicon3@2x.jpg</string>
+                    <string>imageicon3@2x.jpg</string>
+                    <string>imageicon3@2x.jpg</string>
+                    <string>imageicon3@2x.jpg</string>
+                    <string>imageicon3@2x.jpg</string>
+                    <string>imageicon3@2x.jpg</string>
+                    <string>imageicon3@2x.jpg</string>
+                    <string>imageicon3@2x.jpg</string>
+                    <string>imageicon3@2x.jpg</string>
+                    <string>imageicon3@2x.jpg</string>
+                    <string>imageicon3@2x.jpg</string>
+                    <string>imageicon3@2x.jpg</string>
+                    <string>imageicon3@2x.jpg</string>
+                    <string>imageicon3@2x.jpg</string>
+                    <string>imageicon3@2x.jpg</string>
+                    <string>imageicon3@2x.jpg</string>
+                    <string>imageicon3@2x.jpg</string>
+                    <string>imageicon3@2x.jpg</string>
+                    <string>imageicon3@2x.jpg</string>
+                    <string>imageicon3@2x.jpg</string>
+                    <string>imageicon3@2x.jpg</string>
+                    <string>imageicon3@2x.jpg</string>
+                    <string>imageicon3@2x.jpg</string>
+                    <string>imageicon3@2x.jpg</string>
+                </array>
+                <key>Foto</key>
+                <array>
+                    <string>image0@2x.jpg</string>
+                    <string>image1@2x.jpg</string>
+                    <string>image2@2x.jpg</string>
+                    <string>image3@2x.jpg</string>
+                    <string>image4@2x.jpg</string>
+                    <string>image5@2x.jpg</string>
+                    <string>image6@2x.jpg</string>
+                    <string>image7@2x.jpg</string>
+                    <string>image8@2x.jpg</string>
+                    <string>image9@2x.jpg</string>
+                    <string>image9@2x.jpg</string>
+                    <string>image9@2x.jpg</string>
+                    <string>image9@2x.jpg</string>
+                    <string>image9@2x.jpg</string>
+                    <string>image9@2x.jpg</string>
+                    <string>image9@2x.jpg</string>
+                    <string>image9@2x.jpg</string>
+                    <string>image9@2x.jpg</string>
+                    <string>image9@2x.jpg</string>
+                    <string>image9@2x.jpg</string>
+                    <string>image9@2x.jpg</string>
+                    <string>image9@2x.jpg</string>
+                    <string>image9@2x.jpg</string>
+                    <string>image9@2x.jpg</string>
+                    <string>image9@2x.jpg</string>
+                    <string>image9@2x.jpg</string>
+                    <string>image9@2x.jpg</string>
+                    <string>image9@2x.jpg</string>
+                    <string>image9@2x.jpg</string>
+                </array>
+                <key>ProductName</key>
+                <array>
+                    <string>Produto 1 name the product</string>
+                    <string>Produto 2</string>
+                    <string>Produto 3</string>
+                    <string>Produto 4</string>
+                    <string>Produto 5</string>
+                    <string>Produto 6</string>
+                    <string>Produto 7</string>
+                    <string>Produto 8</string>
+                    <string>Produto 9</string>
+                    <string>Produto 10</string>
+                    <string>Produto 11</string>
+                    <string>Produto 11</string>
+                    <string>Produto 11</string>
+                    <string>Produto 11</string>
+                    <string>Produto 11</string>
+                    <string>Produto 11</string>
+                    <string>Produto 11</string>
+                    <string>Produto 11</string>
+                    <string>Produto 11</string>
+                    <string>Produto 11</string>
+                    <string>Produto 11</string>
+                    <string>Produto 11</string>
+                    <string>Produto 11</string>
+                    <string>Produto 11</string>
+                    <string>Produto 11</string>
+                    <string>Produto 11</string>
+                    <string>Produto 11</string>
+                    <string>Produto 11</string>
+                    <string>Produto 11</string>
+                </array>
+                <key>Detalhes</key>
+                <array>
+                    <string>modo de preparo</string>
+                    <string>modo de preparo</string>
+                    <string>modo de preparo</string>
+                    <string>modo de preparo</string>
+                    <string>modo de preparo</string>
+                    <string>modo de preparo</string>
+                    <string>modo de preparo</string>
+                    <string>modo de preparo</string>
+                    <string>modo de preparo</string>
+                    <string>modo de preparo</string>
+                    <string>modo de preparo</string>
+                    <string>modo de preparo</string>
+                    <string>modo de preparo</string>
+                    <string>modo de preparo</string>
+                    <string>modo de preparo</string>
+                    <string>modo de preparo</string>
+                    <string>modo de preparo</string>
+                    <string>modo de preparo</string>
+                    <string>modo de preparo</string>
+                    <string>modo de preparo</string>
+                    <string>modo de preparo</string>
+                    <string>modo de preparo</string>
+                    <string>modo de preparo</string>
+                    <string>modo de preparo</string>
+                    <string>modo de preparo</string>
+                    <string>modo de preparo</string>
+                    <string>modo de preparo</string>
+                    <string>modo de preparo</string>
+                    <string>modo de preparo</string>
+                </array>
+            </dict>
+        </plist>
+        

@@ -1,0 +1,6 @@
+framework module CPEModels {
+  umbrella header "CPEModels.h"
+
+  export *
+  module * { export * }
+}

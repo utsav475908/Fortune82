@@ -1,0 +1,769 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <FileRef
+      location = "group:Some99/Some99.xcodeproj">
+   </FileRef>
+   <Group
+      location = "group:Some99/Some99"
+      name = "olo">
+      <Group
+         location = "group:AnimatedTabBar"
+         name = "AnimatedTabBar">
+         <FileRef
+            location = "group:AnimatedTabBar.h">
+         </FileRef>
+         <FileRef
+            location = "group:Info.plist">
+         </FileRef>
+      </Group>
+      <Group
+         location = "group:RAMAnimatedTabBarDemo"
+         name = "RAMAnimatedTabBarDemo">
+         <FileRef
+            location = "group:AppDelegate.swift">
+         </FileRef>
+         <Group
+            location = "group:Base.lproj"
+            name = "Base.lproj">
+            <FileRef
+               location = "group:LaunchScreen.xib">
+            </FileRef>
+            <FileRef
+               location = "group:Main.storyboard">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:Images.xcassets"
+            name = "Images.xcassets">
+            <Group
+               location = "group:AppIcon.appiconset"
+               name = "AppIcon.appiconset">
+               <FileRef
+                  location = "group:Contents.json">
+               </FileRef>
+            </Group>
+            <Group
+               location = "group:drop"
+               name = "drop">
+               <Group
+                  location = "group:drop.imageset"
+                  name = "drop.imageset">
+                  <FileRef
+                     location = "group:Contents.json">
+                  </FileRef>
+                  <FileRef
+                     location = "group:drop.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:drop@2x.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:drop@3.png">
+                  </FileRef>
+               </Group>
+            </Group>
+            <Group
+               location = "group:icon_pin.imageset"
+               name = "icon_pin.imageset">
+               <FileRef
+                  location = "group:Contents.json">
+               </FileRef>
+               <FileRef
+                  location = "group:icon_pin_00160.png">
+               </FileRef>
+               <FileRef
+                  location = "group:icon_pin_00160@2x.png">
+               </FileRef>
+               <FileRef
+                  location = "group:icon_pin_00160@3x.png">
+               </FileRef>
+            </Group>
+            <Group
+               location = "group:icon_user.imageset"
+               name = "icon_user.imageset">
+               <FileRef
+                  location = "group:Contents.json">
+               </FileRef>
+               <FileRef
+                  location = "group:user_00084.png">
+               </FileRef>
+               <FileRef
+                  location = "group:user_00084@2x.png">
+               </FileRef>
+               <FileRef
+                  location = "group:user_00084@3x.png">
+               </FileRef>
+            </Group>
+            <Group
+               location = "group:Settings_icon"
+               name = "Settings_icon">
+               <Group
+                  location = "group:Settings.imageset"
+                  name = "Settings.imageset">
+                  <FileRef
+                     location = "group:Contents.json">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Settings_00208.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Settings_00208@2x.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Settings_00208@3x.png">
+                  </FileRef>
+               </Group>
+            </Group>
+            <Group
+               location = "group:Tools"
+               name = "Tools">
+               <Group
+                  location = "group:Tools_00028.imageset"
+                  name = "Tools_00028.imageset">
+                  <FileRef
+                     location = "group:Contents.json">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Tools_00028 copy.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Tools_00028.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Tools_00028@3x.png">
+                  </FileRef>
+               </Group>
+               <Group
+                  location = "group:Tools_00029.imageset"
+                  name = "Tools_00029.imageset">
+                  <FileRef
+                     location = "group:Contents.json">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Tools_00029.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Tools_00029@2x.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Tools_00029@3x.png">
+                  </FileRef>
+               </Group>
+               <Group
+                  location = "group:Tools_00030.imageset"
+                  name = "Tools_00030.imageset">
+                  <FileRef
+                     location = "group:Contents.json">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Tools_00030.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Tools_00030@2x.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Tools_00030@3x.png">
+                  </FileRef>
+               </Group>
+               <Group
+                  location = "group:Tools_00031.imageset"
+                  name = "Tools_00031.imageset">
+                  <FileRef
+                     location = "group:Contents.json">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Tools_00031.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Tools_00031@2x.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Tools_00031@3x.png">
+                  </FileRef>
+               </Group>
+               <Group
+                  location = "group:Tools_00032.imageset"
+                  name = "Tools_00032.imageset">
+                  <FileRef
+                     location = "group:Contents.json">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Tools_00032.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Tools_00032@2x.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Tools_00032@3x.png">
+                  </FileRef>
+               </Group>
+               <Group
+                  location = "group:Tools_00033.imageset"
+                  name = "Tools_00033.imageset">
+                  <FileRef
+                     location = "group:Contents.json">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Tools_00033.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Tools_00033@2x.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Tools_00033@3x.png">
+                  </FileRef>
+               </Group>
+               <Group
+                  location = "group:Tools_00034.imageset"
+                  name = "Tools_00034.imageset">
+                  <FileRef
+                     location = "group:Contents.json">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Tools_00034.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Tools_00034@2x.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Tools_00034@3x.png">
+                  </FileRef>
+               </Group>
+               <Group
+                  location = "group:Tools_00035.imageset"
+                  name = "Tools_00035.imageset">
+                  <FileRef
+                     location = "group:Contents.json">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Tools_00035.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Tools_00035@2x.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Tools_00035@3x.png">
+                  </FileRef>
+               </Group>
+               <Group
+                  location = "group:Tools_00036.imageset"
+                  name = "Tools_00036.imageset">
+                  <FileRef
+                     location = "group:Contents.json">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Tools_00036.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Tools_00036@2x.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Tools_00036@3x.png">
+                  </FileRef>
+               </Group>
+               <Group
+                  location = "group:Tools_00037.imageset"
+                  name = "Tools_00037.imageset">
+                  <FileRef
+                     location = "group:Contents.json">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Tools_00037.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Tools_00037@2x.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Tools_00037@3x.png">
+                  </FileRef>
+               </Group>
+               <Group
+                  location = "group:Tools_00038.imageset"
+                  name = "Tools_00038.imageset">
+                  <FileRef
+                     location = "group:Contents.json">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Tools_00038.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Tools_00038@2x.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Tools_00038@3x.png">
+                  </FileRef>
+               </Group>
+               <Group
+                  location = "group:Tools_00039.imageset"
+                  name = "Tools_00039.imageset">
+                  <FileRef
+                     location = "group:Contents.json">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Tools_00039.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Tools_00039@2x.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Tools_00039@3x.png">
+                  </FileRef>
+               </Group>
+               <Group
+                  location = "group:Tools_00040.imageset"
+                  name = "Tools_00040.imageset">
+                  <FileRef
+                     location = "group:Contents.json">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Tools_00040.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Tools_00040@2x.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Tools_00040@3x.png">
+                  </FileRef>
+               </Group>
+               <Group
+                  location = "group:Tools_00041.imageset"
+                  name = "Tools_00041.imageset">
+                  <FileRef
+                     location = "group:Contents.json">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Tools_00041.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Tools_00041@2x.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Tools_00041@3x.png">
+                  </FileRef>
+               </Group>
+               <Group
+                  location = "group:Tools_00042.imageset"
+                  name = "Tools_00042.imageset">
+                  <FileRef
+                     location = "group:Contents.json">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Tools_00042.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Tools_00042@2x.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Tools_00042@3x.png">
+                  </FileRef>
+               </Group>
+               <Group
+                  location = "group:Tools_00043.imageset"
+                  name = "Tools_00043.imageset">
+                  <FileRef
+                     location = "group:Contents.json">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Tools_00043.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Tools_00043@2x.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Tools_00043@3x.png">
+                  </FileRef>
+               </Group>
+               <Group
+                  location = "group:Tools_00044.imageset"
+                  name = "Tools_00044.imageset">
+                  <FileRef
+                     location = "group:Contents.json">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Tools_00044.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Tools_00044@2x.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Tools_00044@3x.png">
+                  </FileRef>
+               </Group>
+               <Group
+                  location = "group:Tools_00045.imageset"
+                  name = "Tools_00045.imageset">
+                  <FileRef
+                     location = "group:Contents.json">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Tools_00045.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Tools_00045@2x.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Tools_00045@3x.png">
+                  </FileRef>
+               </Group>
+               <Group
+                  location = "group:Tools_00046.imageset"
+                  name = "Tools_00046.imageset">
+                  <FileRef
+                     location = "group:Contents.json">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Tools_00046.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Tools_00046@2x.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Tools_00046@3x.png">
+                  </FileRef>
+               </Group>
+               <Group
+                  location = "group:Tools_00047.imageset"
+                  name = "Tools_00047.imageset">
+                  <FileRef
+                     location = "group:Contents.json">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Tools_00047.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Tools_00047@2x.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Tools_00047@3x.png">
+                  </FileRef>
+               </Group>
+               <Group
+                  location = "group:Tools_00048.imageset"
+                  name = "Tools_00048.imageset">
+                  <FileRef
+                     location = "group:Contents.json">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Tools_00048.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Tools_00048@2x.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Tools_00048@3x.png">
+                  </FileRef>
+               </Group>
+               <Group
+                  location = "group:Tools_00049.imageset"
+                  name = "Tools_00049.imageset">
+                  <FileRef
+                     location = "group:Contents.json">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Tools_00049.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Tools_00049@2x.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Tools_00049@3x.png">
+                  </FileRef>
+               </Group>
+               <Group
+                  location = "group:Tools_00050.imageset"
+                  name = "Tools_00050.imageset">
+                  <FileRef
+                     location = "group:Contents.json">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Tools_00050.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Tools_00050@2x.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Tools_00050@3x.png">
+                  </FileRef>
+               </Group>
+               <Group
+                  location = "group:Tools_00051.imageset"
+                  name = "Tools_00051.imageset">
+                  <FileRef
+                     location = "group:Contents.json">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Tools_00051.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Tools_00051@2x.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Tools_00051@3x.png">
+                  </FileRef>
+               </Group>
+               <Group
+                  location = "group:Tools_00052.imageset"
+                  name = "Tools_00052.imageset">
+                  <FileRef
+                     location = "group:Contents.json">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Tools_00052.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Tools_00052@2x.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Tools_00052@3x.png">
+                  </FileRef>
+               </Group>
+               <Group
+                  location = "group:Tools_00053.imageset"
+                  name = "Tools_00053.imageset">
+                  <FileRef
+                     location = "group:Contents.json">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Tools_00053.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Tools_00053@2x.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Tools_00053@3x.png">
+                  </FileRef>
+               </Group>
+               <Group
+                  location = "group:Tools_00054.imageset"
+                  name = "Tools_00054.imageset">
+                  <FileRef
+                     location = "group:Contents.json">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Tools_00054.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Tools_00054@2x.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Tools_00054@3x.png">
+                  </FileRef>
+               </Group>
+               <Group
+                  location = "group:Tools_00055.imageset"
+                  name = "Tools_00055.imageset">
+                  <FileRef
+                     location = "group:Contents.json">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Tools_00055.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Tools_00055@2x.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Tools_00055@3x.png">
+                  </FileRef>
+               </Group>
+               <Group
+                  location = "group:Tools_00056.imageset"
+                  name = "Tools_00056.imageset">
+                  <FileRef
+                     location = "group:Contents.json">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Tools_00056.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Tools_00056@2x.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Tools_00056@3x.png">
+                  </FileRef>
+               </Group>
+               <Group
+                  location = "group:Tools_00057.imageset"
+                  name = "Tools_00057.imageset">
+                  <FileRef
+                     location = "group:Contents.json">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Tools_00057.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Tools_00057@2x.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Tools_00057@3x.png">
+                  </FileRef>
+               </Group>
+               <Group
+                  location = "group:Tools_00058.imageset"
+                  name = "Tools_00058.imageset">
+                  <FileRef
+                     location = "group:Contents.json">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Tools_00058.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Tools_00058@2x.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Tools_00058@3x.png">
+                  </FileRef>
+               </Group>
+               <Group
+                  location = "group:Tools_00059.imageset"
+                  name = "Tools_00059.imageset">
+                  <FileRef
+                     location = "group:Contents.json">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Tools_00059.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Tools_00059@2x.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Tools_00059@3x.png">
+                  </FileRef>
+               </Group>
+               <Group
+                  location = "group:Tools_00060.imageset"
+                  name = "Tools_00060.imageset">
+                  <FileRef
+                     location = "group:Contents.json">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Tools_00060.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Tools_00060@2x.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Tools_00060@3x.png">
+                  </FileRef>
+               </Group>
+               <Group
+                  location = "group:Tools_00061.imageset"
+                  name = "Tools_00061.imageset">
+                  <FileRef
+                     location = "group:Contents.json">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Tools_00061.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Tools_00061@2x.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Tools_00061@3x.png">
+                  </FileRef>
+               </Group>
+               <Group
+                  location = "group:Tools_00062.imageset"
+                  name = "Tools_00062.imageset">
+                  <FileRef
+                     location = "group:Contents.json">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Tools_00062.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Tools_00062@2x.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Tools_00062@3x.png">
+                  </FileRef>
+               </Group>
+               <Group
+                  location = "group:Tools_00063.imageset"
+                  name = "Tools_00063.imageset">
+                  <FileRef
+                     location = "group:Contents.json">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Tools_00063.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Tools_00063@2x.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Tools_00063@3x.png">
+                  </FileRef>
+               </Group>
+               <Group
+                  location = "group:Tools_00064.imageset"
+                  name = "Tools_00064.imageset">
+                  <FileRef
+                     location = "group:Contents.json">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Tools_00064.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Tools_00064@2x.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Tools_00064@3x.png">
+                  </FileRef>
+               </Group>
+               <Group
+                  location = "group:Tools_00065.imageset"
+                  name = "Tools_00065.imageset">
+                  <FileRef
+                     location = "group:Contents.json">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Tools_00065.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Tools_00065@2x.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Tools_00065@3x.png">
+                  </FileRef>
+               </Group>
+            </Group>
+         </Group>
+         <FileRef
+            location = "group:Info.plist">
+         </FileRef>
+         <Group
+            location = "group:Resources"
+            name = "Resources">
+            <FileRef
+               location = "group:ToolsAnimation.plist">
+            </FileRef>
+         </Group>
+         <FileRef
+            location = "group:ViewController.swift">
+         </FileRef>
+      </Group>
+      <FileRef
+         location = "group:RAMAnimatedTabBarDemo.xcodeproj">
+      </FileRef>
+      <Group
+         location = "group:RAMAnimatedTabBarDemoTests"
+         name = "RAMAnimatedTabBarDemoTests">
+         <FileRef
+            location = "group:Info.plist">
+         </FileRef>
+         <FileRef
+            location = "group:RAMAnimatedTabBarDemoTests.swift">
+         </FileRef>
+      </Group>
+      <Group
+         location = "group:TabBarLib"
+         name = "TabBarLib">
+         <FileRef
+            location = "group:Info.plist">
+         </FileRef>
+         <FileRef
+            location = "group:TabBarLib.h">
+         </FileRef>
+      </Group>
+   </Group>
+</Workspace>
